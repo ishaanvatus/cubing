@@ -1,0 +1,56 @@
+\typeout{}%
+\typeout{...PERL process..................................}%
+\typeout{...script = rubikrotation.pl v5.0   (25 February 2018)}%
+\typeout{...reading the current cube state (from File: rubikstate.dat)}%
+\typeout{...}%
+\typeout{...command = cubesize,three}%
+\typeout{...cube = THREEcube}%
+\typeout{...}%
+\typeout{......up,W,W,W,W,W,W,W,W,W}%
+\typeout{....down,Y,Y,Y,Y,Y,Y,Y,Y,Y}%
+\typeout{....left,R,R,R,R,R,R,R,R,R}%
+\typeout{...right,O,O,O,O,O,O,O,O,O}%
+\typeout{...front,B,B,B,B,B,B,B,B,B}%
+\typeout{....back,G,G,G,G,G,G,G,G,G}%
+\typeout{...}%
+\typeout{...rotation keyword}%
+\typeout{...checking state of cube}%
+\typeout{...cubiesum = 54 (Red=9, Or=9, Ye=9, Gr=9, Bl=9, Wh=9, X=0)}%
+\typeout{...}%
+\typeout{...command = rotation,[Ub],y2,M2,Up,M,U2,Mp,Up,M2,<inverse>}%
+\typeout{...dataline = rotation,[Ub],y2,M2,Up,M,U2,Mp,Up,M2,<inverse>}%
+\typeout{...directionFLAG set; reversing array...}%
+\typeout{...Expanding M2 ...}%
+\typeout{...rotation Mp,  OK (= Sr) }%
+\typeout{...rotation Mp,  OK (= Sr) }%
+\typeout{...rotation U,   OK}%
+\typeout{...rotation M,   OK (= Sl) }%
+\typeout{...Expanding U2 ...}%
+\typeout{...rotation Up,  OK (= U3)}%
+\typeout{...rotation Up,  OK (= U3)}%
+\typeout{...rotation Mp,  OK (= Sr) }%
+\typeout{...rotation U,   OK}%
+\typeout{...Expanding M2 ...}%
+\typeout{...rotation Mp,  OK (= Sr) }%
+\typeout{...rotation Mp,  OK (= Sr) }%
+\typeout{...Expanding y2 ...}%
+\typeout{...rotation yp, OK (= yp = Up + Sup + D)}%
+\typeout{...rotation yp, OK (= yp = Up + Sup + D)}%
+\typeout{...[Ub] is a label OK}%
+%% ...output datafile=rubikstateNEW.dat
+%% ...PERL script=rubikrotation.pl version v5.0   (25 February 2018)
+\typeout{...writing new cube state to file rubikstateNEW.dat}%
+\RubikFaceUp{W}{W}{W}{W}{W}{W}{W}{W}{W}%
+\RubikFaceDown{Y}{Y}{Y}{Y}{Y}{Y}{Y}{Y}{Y}%
+\RubikFaceLeft{O}{B}{O}{O}{O}{O}{O}{O}{O}%
+\RubikFaceRight{R}{O}{R}{R}{R}{R}{R}{R}{R}%
+\RubikFaceFront{G}{G}{G}{G}{G}{G}{G}{G}{G}%
+\RubikFaceBack{B}{R}{B}{B}{B}{B}{B}{B}{B}%
+\renewcommand\SequenceName{Ub}%
+\typeout{...SequenceName = Ub}%
+\renewcommand\SequenceInfo{inverse}%
+\typeout{...SequenceInfo = inverse}%
+\renewcommand\SequenceShort{[Ub],y2,M2,Up,M,U2,Mp,Up,M2}%
+\typeout{...SequenceShort = [Ub],y2,M2,Up,M,U2,Mp,Up,M2}%
+\renewcommand\SequenceLong{Mp,Mp,U,M,Up,Up,Mp,U,Mp,Mp,yp,yp}%
+\typeout{...SequenceLong = Mp,Mp,U,M,Up,Up,Mp,U,Mp,Mp,yp,yp}%

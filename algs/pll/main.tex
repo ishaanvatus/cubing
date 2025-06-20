@@ -1,0 +1,71 @@
+\documentclass{pll}
+\usepackage{multicol}
+
+\begin{document}
+
+\title{Rubik's Cube PLL Algorithm Sheet}
+\date{}
+\maketitle
+
+\section*{PLL Algorithms and Their Inverses}
+
+\begin{multicols}{2}
+
+%--- Aa Perm ---
+\textbf{Aa Perm}\\
+\RubikCubeSolvedWY\RubikRotation{yp}
+\RubikRotation{\AaPerm}
+\ShowCube{2.5cm}{0.5}{\NoSidebar{X}\DrawRubikFaceUpSide}
+\vspace{0.2cm}
+
+\textit{Inverse:}\\
+\RubikCubeSolvedWY\RubikRotation{yp}
+\RubikRotation{\AaPerm,<inverse>}
+\ShowCube{2.5cm}{0.5}{\NoSidebar{X}\DrawRubikFaceUpSide}
+\vspace{0.4cm}
+
+%--- Ab Perm ---
+\textbf{Ab Perm}\\
+\RubikCubeSolvedWY\RubikRotation{yp}
+\RubikRotation{\AbPerm}
+\ShowCube{2.5cm}{0.5}{\NoSidebar{X}\DrawRubikFaceUpSide}
+\vspace{0.2cm}
+
+\textit{Inverse:}\\
+\RubikCubeSolvedWY\RubikRotation{yp}
+\RubikRotation{\AbPerm,<inverse>}
+\ShowCube{2.5cm}{0.5}{\NoSidebar{X}\DrawRubikFaceUpSide}
+\vspace{0.4cm}
+
+%--- Ua Perm ---
+\textbf{Ua Perm}\\
+\RubikCubeSolvedWY\RubikRotation{yp}
+\RubikRotation{\UaPerm}
+\ShowCube{2.5cm}{0.5}{\NoSidebar{X}\DrawRubikFaceUpSide}
+\vspace{0.2cm}
+
+\textit{Inverse:}\\
+\RubikCubeSolvedWY\RubikRotation{yp}
+\RubikRotation{\UaPerm,<inverse>}
+\ShowCube{2.5cm}{0.5}{\NoSidebar{X}\DrawRubikFaceUpSide}
+\vspace{0.4cm}
+
+%--- Ub Perm ---
+\textbf{Ub Perm}\\
+\RubikCubeSolvedWY\RubikRotation{yp}
+\RubikRotation{\UbPerm}
+\ShowCube{2.5cm}{0.5}{\NoSidebar{X}\DrawRubikFaceUpSide}
+\vspace{0.2cm}
+
+\textit{Inverse:}\\
+\RubikCubeSolvedWY\RubikRotation{yp}
+\RubikRotation{\UbPerm,<inverse>}
+\ShowCube{2.5cm}{0.5}{\NoSidebar{X}\DrawRubikFaceUpSide}
+\vspace{0.4cm}
+
+%--- Add more as needed: just copy the above block and change the macro ---
+
+\end{multicols}
+
+\end{document}
+
