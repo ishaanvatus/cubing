@@ -1,0 +1,45 @@
+\typeout{}%
+\typeout{...PERL process..................................}%
+\typeout{...script = rubikrotation.pl v5.0   (25 February 2018)}%
+\typeout{...reading the current cube state (from File: rubikstate.dat)}%
+\typeout{...}%
+\typeout{...command = cubesize,three}%
+\typeout{...cube = THREEcube}%
+\typeout{...}%
+\typeout{......up,Y,Y,Y,Y,Y,Y,Y,Y,Y}%
+\typeout{....down,X,X,X,X,X,X,X,X,X}%
+\typeout{....left,X,X,X,X,X,X,X,X,X}%
+\typeout{...right,X,X,X,X,X,X,X,X,X}%
+\typeout{...front,X,X,X,X,X,X,X,X,X}%
+\typeout{....back,X,X,X,X,X,X,X,X,X}%
+\typeout{...}%
+\typeout{...rotation keyword}%
+\typeout{...checking state of cube}%
+\typeout{...cubiesum = 54 (Red=0, Or=0, Ye=9, Gr=0, Bl=0, Wh=0, X=45)}%
+\typeout{...}%
+\typeout{...command = rotation,F, R, U, Rp, Up, Fp, <inverse>}%
+\typeout{...dataline = rotation,F,R,U,Rp,Up,Fp,<inverse>}%
+\typeout{...directionFLAG set; reversing array...}%
+\typeout{...rotation F,   OK}%
+\typeout{...rotation U,   OK}%
+\typeout{...rotation R,   OK}%
+\typeout{...rotation Up,  OK (= U3)}%
+\typeout{...rotation Rp,  OK (= R3)}%
+\typeout{...rotation Fp,  OK (= F3)}%
+%% ...output datafile=rubikstateNEW.dat
+%% ...PERL script=rubikrotation.pl version v5.0   (25 February 2018)
+\typeout{...writing new cube state to file rubikstateNEW.dat}%
+\RubikFaceUp{X}{X}{Y}{Y}{Y}{Y}{X}{X}{Y}%
+\RubikFaceDown{X}{X}{X}{X}{X}{X}{X}{X}{X}%
+\RubikFaceLeft{Y}{X}{Y}{X}{X}{X}{X}{X}{X}%
+\RubikFaceRight{X}{X}{X}{X}{X}{X}{X}{X}{X}%
+\RubikFaceFront{X}{Y}{X}{X}{X}{X}{X}{X}{X}%
+\RubikFaceBack{X}{Y}{X}{X}{X}{X}{X}{X}{X}%
+\renewcommand\SequenceName{}%
+\typeout{...SequenceName = }%
+\renewcommand\SequenceInfo{inverse}%
+\typeout{...SequenceInfo = inverse}%
+\renewcommand\SequenceShort{F,R,U,Rp,Up,Fp}%
+\typeout{...SequenceShort = F,R,U,Rp,Up,Fp}%
+\renewcommand\SequenceLong{F,U,R,Up,Rp,Fp}%
+\typeout{...SequenceLong = F,U,R,Up,Rp,Fp}%
