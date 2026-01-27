@@ -1,10 +1,10 @@
 %% filename: rubikstate.dat
 %% written by rubikrotation.sty=v5.0 (2018/02/25)
 cubesize,three
-up,W,W,W,W,W,W,W,W,W
-down,Y,Y,Y,Y,Y,Y,Y,Y,Y
-left,R,R,R,R,R,R,R,R,R
-right,O,O,O,O,O,O,O,O,O
+up,Y,Y,Y,Y,Y,Y,Y,Y,Y
+down,W,W,W,W,W,W,W,W,W
+left,O,O,O,O,O,O,O,O,O
+right,R,R,R,R,R,R,R,R,R
 front,B,B,B,B,B,B,B,B,B
 back,G,G,G,G,G,G,G,G,G
 rotation,[Ub],y2,M2,Up,M,U2,Mp,Up,M2,<inverse>

@@ -6,10 +6,10 @@
 \typeout{...command = cubesize,three}%
 \typeout{...cube = THREEcube}%
 \typeout{...}%
-\typeout{......up,W,W,W,W,W,W,W,W,W}%
-\typeout{....down,Y,Y,Y,Y,Y,Y,Y,Y,Y}%
-\typeout{....left,R,R,R,R,R,R,R,R,R}%
-\typeout{...right,O,O,O,O,O,O,O,O,O}%
+\typeout{......up,Y,Y,Y,Y,Y,Y,Y,Y,Y}%
+\typeout{....down,W,W,W,W,W,W,W,W,W}%
+\typeout{....left,O,O,O,O,O,O,O,O,O}%
+\typeout{...right,R,R,R,R,R,R,R,R,R}%
 \typeout{...front,B,B,B,B,B,B,B,B,B}%
 \typeout{....back,G,G,G,G,G,G,G,G,G}%
 \typeout{...}%
@@ -40,12 +40,12 @@
 %% ...output datafile=rubikstateNEW.dat
 %% ...PERL script=rubikrotation.pl version v5.0   (25 February 2018)
 \typeout{...writing new cube state to file rubikstateNEW.dat}%
-\RubikFaceUp{W}{W}{W}{W}{W}{W}{W}{W}{W}%
-\RubikFaceDown{Y}{Y}{Y}{Y}{Y}{Y}{Y}{Y}{Y}%
-\RubikFaceLeft{O}{B}{O}{O}{O}{O}{O}{O}{O}%
-\RubikFaceRight{R}{O}{R}{R}{R}{R}{R}{R}{R}%
+\RubikFaceUp{Y}{Y}{Y}{Y}{Y}{Y}{Y}{Y}{Y}%
+\RubikFaceDown{W}{W}{W}{W}{W}{W}{W}{W}{W}%
+\RubikFaceLeft{R}{B}{R}{R}{R}{R}{R}{R}{R}%
+\RubikFaceRight{O}{R}{O}{O}{O}{O}{O}{O}{O}%
 \RubikFaceFront{G}{G}{G}{G}{G}{G}{G}{G}{G}%
-\RubikFaceBack{B}{R}{B}{B}{B}{B}{B}{B}{B}%
+\RubikFaceBack{B}{O}{B}{B}{B}{B}{B}{B}{B}%
 \renewcommand\SequenceName{Ub}%
 \typeout{...SequenceName = Ub}%
 \renewcommand\SequenceInfo{inverse}%
