@@ -2,9 +2,9 @@
 %% written by rubikrotation.sty=v5.0 (2018/02/25)
 cubesize,three
 up,Y,Y,Y,Y,Y,Y,Y,Y,Y
-down,X,X,X,X,X,X,X,X,X
+down,W,W,W,W,W,W,W,W,W
 left,X,X,X,X,X,X,X,X,X
 right,X,X,X,X,X,X,X,X,X
 front,X,X,X,X,X,X,X,X,X
 back,X,X,X,X,X,X,X,X,X
-rotation,F, R, U, Rp, Up, Fp, <inverse>
+rotation,Rw, U, Rp, Up, M2, U, R, Up, Rp, Up, Mp, <inverse>

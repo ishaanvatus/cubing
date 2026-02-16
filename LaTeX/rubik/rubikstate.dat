@@ -1,0 +1,10 @@
+%% filename: rubikstate.dat
+%% written by TwoRotation cmd (rubiktwocube.sty)v5.0 (2018/02/25)
+cubesize,two
+  up,X,X,X,X,X,X,Y,X,X
+down,X,X,X,X,X,X,X,X,X
+left,X,X,X,X,X,X,X,X,X
+right,X,X,Y,X,X,X,X,X,X
+front,X,X,Y,X,X,X,X,X,X
+back,X,X,Y,X,X,X,X,X,X
+rotation,[allyellow],R,U,Rp,U,R,Up,Up,Rp

@@ -1,0 +1,79 @@
+\documentclass{article}
+\usepackage{tikz}
+\usepackage{rubikcube, rubikrotation, rubikpatterns}
+\RubikCubeSolved{}
+
+\RubikRotation{y, x2}
+\SaveRubikState{solved.tex}
+\begin{document}
+\input{solved.tex}
+\RubikRotation{x, L, Up, L, D2, Lp, U, L, D2, L2, xp}
+\SaveRubikState{Aa.tex}
+\input{solved.tex}
+\RubikRotation{x, L2, D2, Lp, Up, L, D2, Lp, U, Lp, xp, <inverse>}
+\SaveRubikState{Ab.tex}
+\input{solved.tex}
+\RubikRotation{xp,R,Up,Rp,D,R,U,Rp,Dp,R,U,Rp,D,R,Up,Rp,Dp,x, <inverse>}
+\SaveRubikState{E.tex}
+\input{solved.tex}
+\RubikRotation{y,Rp,Up,Fp,R,U,Rp,Up,Rp,F,R2,Up,Rp,Up,R,U,Rp,U,R}
+\SaveRubikState{Aa.tex}
+\input{solved.tex}
+\RubikRotation{R2,U,Rp,U,Rp,Up,R,Up,R2,D,Up,Rp,U,R,Dp}
+\SaveRubikState{Aa.tex}
+\input{solved.tex}
+\RubikRotation{Rp,Up,R,U,Dp,R2,U,Rp,U,R,Up,R,Up,R2,D}
+\SaveRubikState{Aa.tex}
+\input{solved.tex}
+\RubikRotation{R2,Up,R,Up,R,U,Rp,U,R2,Dp,U,R,Up,Rp,D}
+\SaveRubikState{Aa.tex}
+\input{solved.tex}
+\RubikRotation{R,U,Rp,Up,D,R2,Up,R,Up,Rp,U,Rp,U,R2,Dp}
+\SaveRubikState{Aa.tex}
+\input{solved.tex}
+\RubikRotation{M2,Up,M2,U2,M2,Up,M2}
+\SaveRubikState{Aa.tex}
+\input{solved.tex}
+\RubikRotation{y2,x,R2,F,R,Fp,R,U2,Rwp,U,Rw,U2,xp}
+\SaveRubikState{Aa.tex}
+\input{solved.tex}
+\RubikRotation{R,U,Rp,Fp,R,U,Rp,Up,Rp,F,R2,Up,Rp}
+\SaveRubikState{Aa.tex}
+\input{solved.tex}
+\RubikRotation{Fp,R,U,Rp,Up,Rp,F,R2,F,Up,Rp,Up,R,U,Fp,Rp,}
+\SaveRubikState{Aa.tex}
+\input{solved.tex}
+\RubikRotation{Rwp,Dp,F,Rw,Up,Rwp,Fp,D,Rw2,U,Rwp,Up,Rwp,F,Rw,Fp}
+\SaveRubikState{Aa.tex}
+\input{solved.tex}
+\RubikRotation{L,U2,Lp,U2,L,Fp,Lp,Up,L,U,L,F,L2}
+\SaveRubikState{Aa.tex}
+\input{solved.tex}
+\RubikRotation{Rp,U2,R,U2,Rp,F,R,U,Rp,Up,Rp,Fp,R2}
+\SaveRubikState{Aa.tex}
+\input{solved.tex}
+\RubikRotation{R,U,Rp,Up,Rp,F,R2,Up,Rp,Up,R,U,Rp,Fp}
+\SaveRubikState{Aa.tex}
+\input{solved.tex}
+\RubikRotation{y2,M2,U,M,U2,Mp,U,M2}
+\SaveRubikState{Aa.tex}
+\input{solved.tex}
+\RubikRotation{y2,M2,Up,M,U2,Mp,Up,M2}
+\SaveRubikState{Aa.tex}
+\input{solved.tex}
+\RubikRotation{Rp,U,Rp,Up,y,Rp,Fp,R2,Up,Rp,U,Rp,F,R,F}
+\SaveRubikState{Aa.tex}
+\input{solved.tex}
+\RubikRotation{F,R,Up,Rp,Up,R,U,Rp,Fp,R,U,Rp,Up,Rp,F,R,Fp}
+\SaveRubikState{Aa.tex}
+\input{solved.tex}
+\RubikRotation{Mp,Up,M2,Up,M2,Up,Mp,U2,M2}
+\SaveRubikState{Aa.tex}
+\input{solved.tex}
+\RubikCubeSolved{}
+\begin{enumerate}
+    \input{Ua.tex}
+    \item \ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\end{enumerate}
+\end{document}
+

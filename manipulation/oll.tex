@@ -1,0 +1,286 @@
+\documentclass{article}
+\usepackage{tikz}
+\usepackage{rubikcube, rubikrotation, rubikpatterns}
+\author{savantshuia}
+\date{}
+\title{OLL Algorithms}
+\begin{document}
+\maketitle
+\RubikCubeSolved{}
+\RubikRotation{y, x2}
+\RubikFaceFront{X}{X}{X}{X}{X}{X}{X}{X}{X}
+\RubikFaceRight{X}{X}{X}{X}{X}{X}{X}{X}{X}
+\RubikFaceBack{X}{X}{X}{X}{X}{X}{X}{X}{X}
+\RubikFaceLeft{X}{X}{X}{X}{X}{X}{X}{X}{X}
+\SaveRubikState{solved.tex}
+\section*{All Edges Oriented Correctly}
+\begin{description}
+\item [OLL 26 - "Antisune"]\input{solved.tex}
+\RubikRotation{R, U2, Rp, Up, R, Up, Rp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{R U2 R' U' R U' R'}
+\item [OLL 27 - "Sune"]\input{solved.tex}
+\RubikRotation{R, U, Rp, U, R, U2, Rp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{R U R' U R U2' R'}
+\item [OLL 21 - "Double Headlights"]\input{solved.tex}
+\RubikRotation{R, U, Rp, U, R, Up, Rp, U, R, U2, Rp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{(R U R' U) (R U' R' U) (R U2' R')}
+\item [OLL 22 - "Pi-Shape"]\input{solved.tex}
+\RubikRotation{R, U2, R2, Up, R2, Up, R2, U2, R, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{R U2 R2 U' R2 U' R2 U2 R}
+\item [OLL 24 - "Hammerhead"]\input{solved.tex}
+\RubikRotation{Rw, U, Rp, Up, Rwp, F, R, Fp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{(r U R' U') (r' F R F')}
+\item [OLL 25 - "L-Shape"]\input{solved.tex}
+\RubikRotation{Fp, Rw, U, Rp, Up, Rwp, F, R, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{F' (r U R' U') r' F R}
+\item [OLL 23 - "U-Shape"]\input{solved.tex}
+\RubikRotation{R2, D, Rp, U2, R, Dp, Rp, U2, Rp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{R2 D (R' U2 R) D' (R' U2 R')}
+\end{description}
+\section*{T-Shapes}
+\begin{description}
+\item [OLL 33 - "Key"]\input{solved.tex}
+\RubikRotation{R, U, Rp, Up, Rp, F, R, Fp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{(R U R' U') (R' F R F')}
+\item [OLL 45 - "T-Shape"]\input{solved.tex}
+\RubikRotation{F, R, U, Rp, Up, Fp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{F (R U R' U') F'}
+\end{description}
+\section*{Squares}
+\begin{description}
+\item [OLL 5 - "Lefty Square"]\input{solved.tex}
+\RubikRotation{Rwp, U2, R, U, Rp, U, Rw, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{(r' U2' R U R' U r)}
+\item [OLL 6 - "Righty Square"]\input{solved.tex}
+\RubikRotation{Rw, U2, Rp, Up, R, Up, Rwp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{(r U2 R' U' R U' r')}
+\end{description}
+\section*{C-Shapes}
+\begin{description}
+\item [OLL 34 - "City"]\input{solved.tex}
+\RubikRotation{Fw, R, Fwp, Up, Rwp, Up, R, U, Mp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{(f R f') (U' r' U' R) (U M')}
+\item [OLL 46 - "Seein' Headlights"]\input{solved.tex}
+\RubikRotation{Rp, Up, Rp, F, R, Fp, U, R, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{R' U' (R' F R F') U R}
+\end{description}
+\section*{W-Shapes}
+\begin{description}
+\item [OLL 36 - "Sea Mew"]\input{solved.tex}
+\RubikRotation{R, U, Rp, Fp, R, U, Rp, Up, Rp, F, R, Up, Rp, F, R, Fp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{(R U R' F') (R U R' U') (R' F R U') (R' F R F')}
+\item [OLL 38 - "Mario"]\input{solved.tex}
+\RubikRotation{R, U, Rp, U, R, Up, Rp, Up, Rp, F, R, Fp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{(R U R' U) (R U' R' U') (R' F R F')}
+\end{description}
+\section*{Corners Correct, Edges Flipped}
+\begin{description}
+\item [OLL 28 - "Stealth"]\input{solved.tex}
+\RubikRotation{Sp, R, U, Rp, S, R, Up, Rp, , <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{S' (R U R') S (R U' R') }
+\item [OLL 57 - "H-Shape"]\input{solved.tex}
+\RubikRotation{R, Up, Rp, Sp, R, U, Rp, S, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{(R U' R' S') (R U R' S)}
+\end{description}
+\section*{P-Shapes}
+\begin{description}
+\item [OLL 31 - "Couch"]\input{solved.tex}
+\RubikRotation{Rp, Up, F, U, R, Up, Rp, Fp, R, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{(R' U' F) (U R U' R') F' R}
+\item [OLL 32 - "Anti-Couch"]\input{solved.tex}
+\RubikRotation{S, R, U, Rp, Up, Rp, F, R, Fwp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{S (R U R' U') (R' F R f')}
+\item [OLL 43 - "Anti-P"]\input{solved.tex}
+\RubikRotation{y, Rp, Up, Fp, U, F, R, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{y R' U' F' U F R}
+\item [OLL 44 - "P-Shape"]\input{solved.tex}
+\RubikRotation{F, U, R, Up, Rp, Fp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{F (U R U' R') F'}
+\end{description}
+\section*{I-Shapes}
+\begin{description}
+\item [OLL 51 - "Bottlecap"]\input{solved.tex}
+\RubikRotation{F, U, R, Up, Rp, U, R, Up, Rp, Fp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{F (U R U' R') (U R U' R') F'}
+\item [OLL 56 - "Streetlights"]\input{solved.tex}
+\RubikRotation{Rw, U, Rwp, U, R, Up, Rp, U, R, Up, Rp, Rw, Up, Rwp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{(r U r') (U R U' R') (U R U' R') (r U' r')}
+\item [OLL 52 - "Rice Cooker"]\input{solved.tex}
+\RubikRotation{Rp, Fp, Up, F, Up, R, U, Rp, U, R, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{R' (F' U' F U') (R U R' U) R}
+\item [OLL 55 - "Highway"]\input{solved.tex}
+\RubikRotation{y, Rp, F, R, U, R, Up, R2, Fp, R2, Up, Rp, U, R, U, Rp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{y (R' F R U) (R U' R2' F') R2 U' R' (U R U R')}
+\end{description}
+\section*{Fish-Shapes}
+\begin{description}
+\item [OLL 9 - "Kite"]\input{solved.tex}
+\RubikRotation{R, U, Rp, Up, Rp, F, R2, U, Rp, Up, Fp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{(R U R' U') R' F (R2 U R' U') F'}
+\item [OLL 10 - "Anti-Kite"]\input{solved.tex}
+\RubikRotation{R, U, Rp, U, Rp, F, R, Fp, R, U2, Rp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{(R U R' U) (R' F R F') (R U2' R')}
+\item [OLL 35 - "Fish Salad"]\input{solved.tex}
+\RubikRotation{R, U2, R2, F, R, Fp, R, U2, Rp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{(R U2') (R2' F R F') (R U2' R')}
+\item [OLL 37 - "Mounted Fish"]\input{solved.tex}
+\RubikRotation{F, R, Up, Rp, Up, R, U, Rp, Fp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{F (R U' R' U') (R U R' F')}
+\end{description}
+\section*{Knight Move Shapes}
+\begin{description}
+\item [OLL 13 - "Gun"]\input{solved.tex}
+\RubikRotation{F, U, R, Up, R2, Fp, R, U, R, Up, Rp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{F U R U' R2' F' R U (R U' R')}
+\item [OLL 14 - "Anti-Gun"]\input{solved.tex}
+\RubikRotation{Rp, F, R, U, Rp, Fp, R, F, Up, Fp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{(R' F R) (U R' F' R) (F U' F')}
+\item [OLL 15 - "Squeegee"]\input{solved.tex}
+\RubikRotation{Rwp, Up, Rw, Rp, Up, R, U, Rwp, U, Rw, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{(r' U' r) (R' U' R U) (r' U r)}
+\item [OLL 16 - "Anti-Squeegee"]\input{solved.tex}
+\RubikRotation{Rw, U, Rwp, R, U, Rp, Up, Rw, Up, Rwp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{(r U r') (R U R' U') (r U' r')}
+\end{description}
+\section*{Awkward Shapes}
+\begin{description}
+\item [OLL 29 - "Spotted Chameleon"]\input{solved.tex}
+\RubikRotation{Rw2, Dp, Rw, U, Rwp, D, Rw2, Up, Rwp, Up, Rw, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{r2 D' r U r' D r2 U' r' U' r}
+\item [OLL 30 - "Anti-Spotted Chameleon"]\input{solved.tex}
+\RubikRotation{Rwp, Dp, Rw, Up, Rwp, D, Rw2, Up, Rwp, U, Rw, U, Rwp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{r' D' r U' r' D r2 U' r' U r U r'}
+\item [OLL 41 - "Awkward Fish"]\input{solved.tex}
+\RubikRotation{R, U, Rp, U, R, U2, Rp, F, R, U, Rp, Up, Fp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{(R U R' U R U2' R') F (R U R' U') F'}
+\item [OLL 42 - "Anti-Awkward Fish"]\input{solved.tex}
+\RubikRotation{F, Sp, R, U, Rp, Up, Fp, U, S, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{(F S') (R U R' U') (F' U S)}
+\end{description}
+\section*{L-Shapes}
+\begin{description}
+\item [OLL 48 - "Breakneck"]\input{solved.tex}
+\RubikRotation{F, R, U, Rp, Up, R, U, Rp, Up, Fp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{F (R U R' U') (R U R' U') F'}
+\item [OLL 47 - "Anti-Breakneck"]\input{solved.tex}
+\RubikRotation{F, Rp, Fp, R, U2, R, Up, Rp, U, R, U2, Rp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{(F R' F' R) U2 (R U' R' U) (R U2 R')}
+\item [OLL 49 - "Right back squeezy"]\input{solved.tex}
+\RubikRotation{Rw, Up, Rw2, U, Rw2, U, Rw2, Up, Rw, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{r U' (r2 U) (r2 U) (r2) U' r}
+\item [OLL 50 - "Right front squeezy"]\input{solved.tex}
+\RubikRotation{Rwp, U, Rw2, Up, Rw2, Up, Rw2, U, Rwp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{r' U r2 U' r2' U' r2 U r'}
+\item [OLL 53 - "Frying Pan"]\input{solved.tex}
+\RubikRotation{Rwp, Up, R, Up, Rp, U, R, Up, Rp, U2, Rw, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{(r' U' R U') (R' U R U') (R' U2 r)}
+\item [OLL 54 - "Anti-Frying Pan"]\input{solved.tex}
+\RubikRotation{Rw, U, Rp, U, R, Up, Rp, U, R, U2, Rwp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{(r U R' U) (R U' R' U) R U2' r'}
+\end{description}
+\section*{Lightning Bolts}
+\begin{description}
+\item [OLL 7 - "Fat Sune"]\input{solved.tex}
+\RubikRotation{Rw, U, Rp, U, R, U2, Rwp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{(r U R' U R U2' r')}
+\item [OLL 8 - "Fat Antisune"]\input{solved.tex}
+\RubikRotation{Rwp, Up, R, Up, Rp, U2, Rw, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{(r' U' R U' R' U2 r)}
+\item [OLL 11 - "Downstairs"]\input{solved.tex}
+\RubikRotation{Rwp, R2, U, Rp, U, R, U2, Rp, U, Mp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{r' (R2 U R' U R U2 R') U M'}
+\item [OLL 12 - "Upstairs"]\input{solved.tex}
+\RubikRotation{Mp, Rp, Up, R, Up, Rp, U2, R, Up, M, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{M' (R' U' R U' R' U2 R) U' M}
+\item [OLL 39 - "Fung"]\input{solved.tex}
+\RubikRotation{Fwp, Rw, U, Rwp, Up, Rwp, F, Rw, S, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{f' (r U r' U') (r' F r S)}
+\item [OLL 40 - "Anti-Fung"]\input{solved.tex}
+\RubikRotation{Fw, Rp, Fp, R, U, R, Up, Rp, Sp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{(f R' F' R) (U R U' R') S'}
+\end{description}
+\section*{No Edges Flipped Correctly}
+\begin{description}
+\item [OLL 1 - "Runway"]\input{solved.tex}
+\RubikRotation{R, U2, R2, F, R, Fp, U2, Rp, F, R, Fp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{(R U2') (R2' F R F') U2' (R' F R F')}
+\item [OLL 2 - "Zamboni"]\input{solved.tex}
+\RubikRotation{R, Up, R2, Dp, Rw, U, Rwp, D, R2, U, Rp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{R U' R2 D' r U r' D R2 U R'}
+\item [OLL 3 - "Anti-Mouse"]\input{solved.tex}
+\RubikRotation{Rp, F2, R2, U2, Rp, F, R, U2, R2, F2, R, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{(R' F2 R2 U2 R') F (R U2 R2 F2 R)}
+\item [OLL 4 - "Mouse"]\input{solved.tex}
+\RubikRotation{Rp, F2, R2, U2, Rp, Fp, R, U2, R2, F2, R, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{(R' F2 R2 U2 R') F' (R U2 R2 F2 R)}
+\item [OLL 18 - "Crown"]\input{solved.tex}
+\RubikRotation{F, Sp, R, Up, Rp, S, R, U2, Rp, Up, Fp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{(F S') (R U' R' S) (R U2 R') (U' F')}
+\item [OLL 19 - "Bunny"]\input{solved.tex}
+\RubikRotation{Sp, R, U, Rp, S, Up, Rp, F, R, Fp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{S' R U R' S U' (R' F R F')}
+\item [OLL 17 - "Slash"]\input{solved.tex}
+\RubikRotation{F, Rp, Fp, R, U, Sp, R, Up, Rp, S, , <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{(F R' F' R) U S' (R U' R') S }
+\item [OLL 20 - "Checkers"]\input{solved.tex}
+\RubikRotation{Rw, U, Rp, Up, M2, U, R, Up, Rp, Up, Mp, <inverse>}
+\ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+\textit{(r U R' U') M2' (U R U' R') U' M'}
+\end{description}
+\end{document}

@@ -1,0 +1,21 @@
+\typeout{}%
+\typeout{...PERL process..................................}%
+\typeout{...script = rubikrotation.pl v5.0   (25 February 2018)}%
+\typeout{...reading the current cube state (from File: ../../3by3/oll/main.tex)}%
+%% ...output datafile=main
+%% ...PERL script=rubikrotation.pl version v5.0   (25 February 2018)
+\typeout{...writing new cube state to file main}%
+\RubikFaceUp{}{}{}{}{}{}{}{}{}%
+\RubikFaceDown{}{}{}{}{}{}{}{}{}%
+\RubikFaceLeft{}{}{}{}{}{}{}{}{}%
+\RubikFaceRight{}{}{}{}{}{}{}{}{}%
+\RubikFaceFront{}{}{}{}{}{}{}{}{}%
+\RubikFaceBack{}{}{}{}{}{}{}{}{}%
+\renewcommand\SequenceName{}%
+\typeout{...SequenceName = }%
+\renewcommand\SequenceInfo{}%
+\typeout{...SequenceInfo = }%
+\renewcommand\SequenceShort{}%
+\typeout{...SequenceShort = }%
+\renewcommand\SequenceLong{}%
+\typeout{...SequenceLong = }%

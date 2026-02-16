@@ -1,0 +1,6 @@
+%% ShowErrors (rubikstateERRORS.dat)
+%% ---------------------------------
+*ERR cmd= rotation,[sixspot],U,Dp,R,Lp,F,Bp,U,Dpppp,cat,dog
+*ERR      Dpppp  -- code not known ? typo or missing comma
+*ERR      cat  -- code not known ? typo or missing comma
+*ERR      dog  -- code not known ? typo or missing comma

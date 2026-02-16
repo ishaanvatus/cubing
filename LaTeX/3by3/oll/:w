@@ -1,0 +1,19 @@
+\documentclass{article}
+\usepackage{tikz}
+\usepackage{rubikcube, rubikrotation, rubikpatterns}
+\RubikCubeSolved{}
+\begin{document}
+\RubikRotation{F, Rp, Fp, R, U, Sfp, R, Up, Rp, Sf, <inverse>}
+\begin{enumerate}
+    \item \ShowCube{3cm}{0.5}{\DrawRubikFaceUpSide}
+    \item \ShowCube{3cm}{0.5}{\DrawRubikFlatDown{}{-30}}
+\item \ShowCube{3cm}{0.5}{\DrawRubikCube}
+\item \ShowCube{3cm}{0.5}{\DrawRubikCubeSF}
+\item \ShowCube{3cm}{0.5}{\DrawRubikCubeF}
+\item \ShowCube{3cm}{0.5}{\DrawRubikCubeRD}
+\item \ShowCube{3cm}{0.5}{\DrawRubikCubeLD}
+\item \ShowCube{3cm}{0.5}{\DrawRubikCubeLU}
+\item \ShowCube{3cm}{0.5}{\DrawRubikCubeRU}
+\begin{enumerate}
+\end{document}
+
