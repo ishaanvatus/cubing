@@ -1,0 +1,58 @@
+group|oll|name|alg|gen|setup
+All Edges Oriented Correctly|26|Antisune|(R U2 R') (U' R U' R')|27|27
+All Edges Oriented Correctly|21|Double Headlights|(R U R' U) (R U' R' U) (R U2' R')|21|"U | Z-perm"
+All Edges Oriented Correctly|24|Hammerhead|(r U R' U') (r' F R F')|25|"U | 25 | Ab-perm | U’"
+All Edges Oriented Correctly|25|L-Shape|F' (r U R' U') r' F R|24|"U2 | 25 | U | E-perm | U"
+All Edges Oriented Correctly|22|Pi-Shape|R U2 R2 U' R2 U' R2 U2 R|22|"21 | U’ | Ua-perm | U"
+All Edges Oriented Correctly|27|Sune|(R U R' U) (R U2' R')|26|26
+All Edges Oriented Correctly|23|U-Shape|R2 D (R' U2 R) D' (R' U2 R')|25|"U | 25 | U’ | E-perm"
+Awkward Shapes|42|Anti-Awkward Fish|(F S') (R U R' U') (F' U S)|31|"U’ | 31 | Ua-perm"
+Awkward Shapes|30|Anti-Spotted Chameleon|r' D' r U' r' D r2 U' r' U r U r'|33|"U2 | 33 | U2 | Jb-perm | U2"
+Awkward Shapes|41|Awkward Fish|(R U R' U R U2' R') F (R U R' U') F'|43|"43 | U’ | Ua-perm | U"
+Awkward Shapes|29|Spotted Chameleon|r2 D' r U r' D r2 U' r' U' r|33|"U2 | 33 | Aa-perm | U’"
+C-Shapes|34|City|(f R f') (U' r' U' R) (U M')|37|"U | 37 | U | Aa-perm | U2"
+C-Shapes|46|Seein' Headlights|R' U' (R' F R F') U R|43|"U’ | 43 | U’ | Z-perm | U’"
+Corners Correct, Edges Flipped|57|H-Shape|(R U' R' S') (R U R' S)|28|28
+Corners Correct, Edges Flipped|28|Stealth|S' (R U R') S (R U' R') |57|57
+Fish-Shapes|10|Anti-Kite|(R U R' U) (R' F R F') (R U2' R')|8|"8 | U2 | Y-perm | U’"
+Fish-Shapes|35|Fish Salad|(R U2') (R2' F R F') (R U2' R')|37|"U | 37 | U | Ra-perm | U2"
+Fish-Shapes|9|Kite|(R U R' U') R' F (R2 U R' U') F'|13|13
+Fish-Shapes|37|Mounted Fish|(F R' F' R) (U R U' R')|33|33
+I-Shapes|51|Bottlecap|F (U R U' R') (U R U' R') F'|48|48
+I-Shapes|55|Highway| (R' F U R U') (R2 F' R2) (U R' U' R)|50|"U2 | 50 | Jb-perm"
+I-Shapes|52|Rice Cooker|R' (F' U' F U') (R U R' U) R|52|"U2 | 52 | U2"
+I-Shapes|56|Streetlights|(r U r') (U R U' R') (U R U' R') (r U' r')|54|"U | 54 | Ua-perm | U’"
+Knight Move Shapes|14|Anti-Gun|(R' F R) (U R' F' R) (F U' F')|10|"U’ | 10 | Jb-perm | U"
+Knight Move Shapes|16|Anti-Squeegee|(r U r') (R U R' U') (r U' r')|7|"7 | U2 | Ub-perm | U2"
+Knight Move Shapes|13|Gun|F U R U' R2' F' R U (R U' R')|9|9
+Knight Move Shapes|15|Squeegee|(r' U' r) (R' U' R U) (r' U r)|8|"8 | Ua-perm"
+L-Shapes|47|Anti-Breakneck|(F R' F' R) U2 (R U' R' U) (R U2 R')|48|"48 | U’ | Gb-perm"
+L-Shapes|54|Anti-Frying Pan|(r U R' U) (R U' R' U) R U2' r'|54|"U | 54 | H-perm | U’"
+L-Shapes|48|Breakneck|F (R U R' U') (R U R' U') F'|51|51
+L-Shapes|53|Frying Pan|(r' U' R U') (R' U R U') (R' U2 r)|53|"U’ | 53 | H-perm | U"
+L-Shapes|49|Right back squeezy|r U' (r2 U) (r2 U) (r2) U' r|50|50
+L-Shapes|50|Right front squeezy|r' U r2 U' r2' U' r2 U r'|49|49
+Lightning Bolts|40|Anti-Fung|(f R' F' R) (U R U' R') S'|32|32
+Lightning Bolts|11|Downstairs|r' (R2 U R' U R U2 R') U M'|7|"U’ | 7 | U | Z-perm"
+Lightning Bolts|8|Fat Antisune|(r' U' R U' R' U2 r)|5|5
+Lightning Bolts|7|Fat Sune|(r U R' U R U2' r')|6|6
+Lightning Bolts|39|Fung|f' (r U r' U') (r' F r S)|43|"U2 | 43 | U’ | Z-perm | U"
+Lightning Bolts|12|Upstairs|M' (R' U' R U' R' U2 R) U' M|8|"U | 8 | Z-perm | U"
+No Edges Flipped Correctly|3|Anti-Mouse|(R' F2 R2 U2 R') F (R U2 R2 F2 R)|4|4
+No Edges Flipped Correctly|19|Bunny|S' R U R' S U' (R' F R F')|17|17
+No Edges Flipped Correctly|20|Checkers|(S' R U R' S) U' (M' U R U' r')|20|20
+No Edges Flipped Correctly|18|Crown|(F S') (R U' R' S) (R U2 R') (U' F')|18|"U2 | 18 | U | Ub-perm | U"
+No Edges Flipped Correctly|4|Mouse|(R' F2 R2 U2 R') F' (R U2 R2 F2 R)|3|3
+No Edges Flipped Correctly|1|Runway|(R U2') (R2' F R F') U2' (R' F R F')|2|"U | 2 | V-perm | U"
+No Edges Flipped Correctly|17|Slash|(F R' F' R) U S' (R U' R') S |19|19
+No Edges Flipped Correctly|2|Zamboni|(R U' R2 D') r U r' (D R2 U R')|1|"U | 1 | U’ | Ja-perm | U2"
+P-Shapes|32|Anti-Couch|S (R U R' U') (R' F R f')|40|40
+P-Shapes|43|Anti-P|R' U' F' U F R|45|"U’ | 45 | U | Ua-perm"
+P-Shapes|31|Couch|(R' U' F) (U R U' R') F' R|40|"U2 | 40 | U | Ab-perm | U2"
+P-Shapes|44|P-Shape|F (U R U' R') F'|45|45
+Squares|5|Lefty Square|(r' U2' R U R' U r)|8|8
+Squares|6|Righty Square|(r U2 R' U' R U' r')|7|7
+T-Shapes|33|Key|(R U R' U') (R' F R F')|37|37
+T-Shapes|45|T-Shape|F (R U R' U') F'|44|44
+W-Shapes|38|Mario|(R U R' U) (R U' R' U') (R' F R F')|43|"U | 43 | U2 | Y-perm | U’"
+W-Shapes|36|Sea Mew|(R' F' U') F2 (U R U' R') (F' R)|31|"U2 | 31 | U2 | Ua-perm | U2"
