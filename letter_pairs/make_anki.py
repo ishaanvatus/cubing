@@ -4,7 +4,7 @@ from pathlib import Path
 import genanki
 
 ROOT = Path(__file__).resolve().parent
-OUTPUT = ROOT / "Speffz Images A-X no repeats.apkg"
+OUTPUT = ROOT / "speffz_letter_pairs.apkg"
 
 MODEL_ID = 1607392319
 DECK_ID = 2059400110
@@ -26,6 +26,7 @@ MODEL = genanki.Model(
 DECK = genanki.Deck(DECK_ID, "Speffz Letter Pairs")
 
 CODE_RE = re.compile(r"^([A-Z][A-Z])_(.+)\.[A-Za-z]+$")
+BARE_RE = re.compile(r"^([A-Z][A-Z])\.[A-Za-z]+$")
 
 
 def main():
@@ -34,10 +35,11 @@ def main():
         if not letter_dir.is_dir():
             continue
         for path in sorted(letter_dir.iterdir()):
-            m = CODE_RE.match(path.name)
+            m = CODE_RE.match(path.name) or BARE_RE.match(path.name)
             if not m:
                 continue
-            code, mnemonic = m.group(1), m.group(2).replace("_", " ")
+            code = m.group(1)
+            mnemonic = m.group(2).replace("_", " ") if m.lastindex == 2 else code
             DECK.add_note(
                 genanki.Note(
                     model=MODEL,
