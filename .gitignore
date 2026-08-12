@@ -45,4 +45,5 @@
 .bak 
 .mtc
 build/
-letter_pairs/speffz_letter_pairs.apkg
+*.speffz_letter_pairs.apkg
+
